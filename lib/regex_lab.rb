@@ -13,7 +13,7 @@ end
 
 def words_five_letters_long(text)
   if text.scan(/^\w{5}\s/)
-    return text.scan(text)
+    return text.scan()
   end
 end
 def first_word_capitalized_and_ends_with_punctuation?(text)
